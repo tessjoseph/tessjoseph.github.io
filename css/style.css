@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'YourDoodle';
+    src: url('./YourDoodle.ttf') format('truetype'); /* Fonts are in the root */
+}
+
+@font-face {
+    font-family: 'Odeng';
+    src: url('./Odeng.ttf') format('truetype'); /* Fonts are in the root */
+}
+
+/* Header using YourDoodle font */
+header h1 {
+    font-family: 'YourDoodle', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Body text using Odeng font */
+body {
+    font-family: 'Odeng', sans-serif;
+    font-size: 1rem;
+    color: #555;
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+/* Styling for section headings */
+h2 {
+    font-family: 'Odeng', sans-serif;
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Link styling */
+a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff3b3b;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
