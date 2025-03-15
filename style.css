@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'YourDoodle';
+    src: url('./fonts/YourDoodle.ttf') format('truetype'); /* Adjust the path if needed */
+}
+
+@font-face {
+    font-family: 'Odeng';
+    src: url('./fonts/Odeng.ttf') format('truetype'); /* Adjust the path if needed */
+}
+/* Header using Your Doodle Font */
+header {
+    font-family: 'YourDoodle', sans-serif;
+    font-size: 2.5rem;
+    color: #333; /* Example color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Body text using Odeng */
+body {
+    font-family: 'Odeng', sans-serif;
+    font-size: 1rem;
+    color: #555; /* Example color */
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+/* Link styling */
+a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff3b3b;
+}
+
