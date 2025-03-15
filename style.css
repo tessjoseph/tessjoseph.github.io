@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'YourDoodle';
-    src: url('./fonts/YourDoodle.ttf') format('truetype'); /* Adjust the path if needed */
+    src: url('.YourDoodle.ttf') format('truetype'); /* Adjust the path if needed */
 }
 
 @font-face {
     font-family: 'Odeng';
-    src: url('./fonts/Odeng.ttf') format('truetype'); /* Adjust the path if needed */
+    src: url('.Odeng.ttf') format('truetype'); /* Adjust the path if needed */
 }
 /* Header using Your Doodle Font */
 header {
